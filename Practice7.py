@@ -1,5 +1,6 @@
+
 def greet(name):
    return name
 
-name = greet(aahil)
+name = greet("aahil")
 print(name)
