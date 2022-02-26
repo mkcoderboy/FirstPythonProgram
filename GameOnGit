@@ -1,0 +1,16 @@
+print("Welcome to the game!")
+game = input("Would you like to play the game? ")
+
+if game == "yes":
+  print("Lets play!")
+else:
+  quite()
+  
+  score = 0 
+  
+  question1 = input("Who is mochael scott? ")
+  if question1.lower() == "manager":
+    print("Correct! ")
+  else: 
+    print("Incorrect! ")
+  
